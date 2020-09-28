@@ -21,69 +21,12 @@ unsafe = true
   preacher = "preachers"
   series = "series"
 
-#This theme can generate a multi-level menu.
-#Use weight= to specify the order of menu items, and parent= to create a submenu item.
-[menu]
-  [[menu.main]]
-    name = "Home"
-    url = "/"
-    weight = 1
 
-  [[menu.main]]
-    name = "About"
-    url = "/about"
-    weight = 2
-
-  [[menu.main]]
-    name = "About Us"
-    parent = "About"
-    url = "/about"
-    weight = 1
-
-  [[menu.main]]
-    name = "Leaders"
-    parent = "About"
-    url = "/leaders"
-    weight = 2
-
-  [[menu.main]]
-    name = "Resources"
-    url = "#"
-    weight = 3
-
-  [[menu.main]]
-    name = "Sermons"
-    url = "/sermons"
-    parent = "Resources"
-    weight = 1
-
-  [[menu.main]]
-    name = "Preachers"
-    url = "/preachers"
-    parent = "Sermons"
-    weight = 1
-
-  [[menu.main]]
-    name = "Best Ever"
-    url = "#"
-    parent = "Sermons"
-    weight = 1
-
-  [[menu.main]]
-    name = "Blog"
-    url = "/posts"
-    parent = "Resources"
-    weight = 2
-
-  [[menu.main]]
-    name = "Contact"
-    url = "/contact"
-    weight = 4
 
 # Paramaters for the whole site
 [params]
-  title = "Giulia & Michele"
-  subtitle = "26 dicembre 2020"
+  # title = "Giulia & Michele"
+  # subtitle = "26 dicembre 2020"
   author = "Michele Ciocchetta"
   languageCode = "en" # For accessibility this needs to be set. You can find all language codes at https://www.w3schools.com/tags/ref_language_codes.asp
 
@@ -99,18 +42,7 @@ unsafe = true
 #  [params.style]
 #    googleFonts = ["Cardo", "Crimson+Text", "Merriweather", "Playfair+Display:400,700", "Roboto+Slab"]
 
-  [params.podcast]
-    title = "Listen to Alpha Church"
-    subtitle = ""
-    summary = "Alpha-Church sermons, talks, messages—podcasted."
-    email = "test@example.com"
-    copyright = "Podcast: [CC0 (public domain)](//creativecommons.org/publicdomain/zero/1.0/)"
-    image = "img/podcast-cover.jpg"
-    category = "Religion & Spirituality"
-    sub_category = "Christianity"
-    iTunes = "https://itunes.apple.com/us/podcast/tgc-word-of-the-week/id1034013280"
-    feed = "https://www.thegospelcoalition.org/podcasts/word-of-the-week/feed/?feed=podcast"
-
+  
   [params.map]
     service = "osm" #"osm" for OpenStreetMaps, "google" for Google Maps, or "mapbox" for Mapbox, see SETUP.md
     # For Open Street Map widgets
@@ -137,34 +69,11 @@ unsafe = true
     service = "netlify"
     confirm_page = "/contact_thanks"
     # formspree_email=""
-
+	
 
     [params.footer]
-      copyright = ["[CC0 (public domain)](//creativecommons.org/publicdomain/zero/1.0/)",
-                   "Design: [HTML5 UP](//html5up.net/alpha)",
-                   "[Hugo Port](//gohugo.io) by [Michele Ciocchetta](https://github.com/Mich3l3)"
+      copyright = [
+                   "by [Michele Ciocchetta]"
                   ]
 
-    [[params.links]]
-      service = "Twitter"
-      icon = "fa-twitter"
-      icon_pack = "fab"
-      link = "//twitter.com/"
-
-    [[params.links]]
-      service = "Facebook"
-      icon = "fa-facebook"
-      icon_pack = "fab"
-      link = "//facebook.com/"
-
-    [[params.links]]
-      service = "Podcast"
-      icon = "fa-podcast"
-      icon_pack = "fas"
-      link = "/sermons/index.xml"
-
-    [[params.links]]
-      service = "Full RSS Feed"
-      icon = "fa-rss"
-      icon_pack = "fas"
-      link = "/index.xml"
+    
