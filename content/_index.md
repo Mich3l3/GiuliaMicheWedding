@@ -12,7 +12,7 @@
 #Details for the box below the banner
 [services]
   title = "Cerimonia"
-  text = "Santa Messa alle ore 11:00 a [Via Santissima Trinità, 4, 37122 Verona VR, Italia](https://www.openstreetmap.org/way/138814483) ."
+  text = "Santa Messa alle ore 11:00 a [Via Santissima Trinità, 4, 37122 Verona VR, Italia](https://goo.gl/maps/z1Td4UgPtAPqbq4v9) ."
   map_location = "Chiesa della Santissima Trinità in Monte Oliveto"
 
 [feature_icons]
@@ -21,33 +21,34 @@
 
   #Accent is a colour defined in the CSS file. Choose between 1 and 5
   [[feature_icons.tile]]
-    icon = "fa-hands-helping"
-    icon_pack = "fas"
-    accent = "1"
-    title = "Serve"
-    text = "Growing people who serve our community."
-    url = "/kids"
-
-  [[feature_icons.tile]]
     icon = "fa-church"
     icon_pack = "fas"
     accent = "2"
-    title = "Meet"
-    text = "Meeting together to hear."
+    title = "Celebrazione"
+    text = "Come arrivare e planning"
+	url = "/church"
 
-  [[feature_icons.tile]]
-    icon = "fa-comments"
+[[feature_icons.tile]]
+    icon = "fa-hands-helping"
     icon_pack = "fas"
-    accent = "5"
-    title = "Speak"
-    text = "Speaking encouragement to one-another."
+    accent = "1"
+    title = "Ricevimento"
+    text = "Come arrivare, menu"
+    url = "/reception"
 
-  [[feature_icons.tile]]
-    icon = "fa-heartbeat"
-    icon_pack = "fas"
-    accent = "3"
-    title = "Loved"
-    text = "Knowing Love. Being Loved."
+  # [[feature_icons.tile]]
+    # icon = "fa-comments"
+    # icon_pack = "fas"
+    # accent = "5"
+    # title = "Speak"
+    # text = "Speaking encouragement to one-another."
+
+  # [[feature_icons.tile]]
+    # icon = "fa-heartbeat"
+    # icon_pack = "fas"
+    # accent = "3"
+    # title = "Loved"
+    # text = "Knowing Love. Being Loved."
 
 [feature_images]
 #These feature images look best if there's an even number of them.
@@ -68,6 +69,6 @@
     button_text="Join a group today!"
 
 [CTA]
-  heading = "Get in touch!"
-  message = "We'd love to hear from you."
+  heading = "Scrivici!"
+  message = "Facci sapere se pensi di venire"
 +++

@@ -1,8 +1,8 @@
 ---
-title: "About"
-subtitle: "About Alpha-Church"
+title: "Celebrazione"
+subtitle: "Santissima Trinità in Monte Uliveto, Verona"
 date: 2018-04-30T10:05:49+10:00
-images: ["img/freely-20445.jpg"]
+images: ["img/church.jpg"]
 draft: false
 ---
 
