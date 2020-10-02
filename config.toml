@@ -3,6 +3,7 @@ languageCode = "en-us"
 title = "Giulia & Michele"
 theme = "alpha-church"
 
+
 rssLimit = 5
 paginate = 4
 
@@ -25,16 +26,12 @@ unsafe = true
 
 # Paramaters for the whole site
 [params]
-  # title = "Giulia & Michele"
-  # subtitle = "26 dicembre 2020"
   author = "Michele Ciocchetta"
   languageCode = "en" # For accessibility this needs to be set. You can find all language codes at https://www.w3schools.com/tags/ref_language_codes.asp
 
-  #bible_popups = "faithlife" #faithlife, blb
-  #bible_version = "CSB" #HCSB, NIV, NLT, ESV, etc.
   instant_page = true
 
-  customCSS = ["example.css"]
+  customCSS = ["/css/my.css"]
 
   [params.banner]
     image = "img/banner.jpg"
@@ -42,19 +39,8 @@ unsafe = true
 #  [params.style]
 #    googleFonts = ["Cardo", "Crimson+Text", "Merriweather", "Playfair+Display:400,700", "Roboto+Slab"]
 
-  
-  [params.map]
-    service = "osm" #"osm" for OpenStreetMaps, "google" for Google Maps, or "mapbox" for Mapbox, see SETUP.md
-    # For Open Street Map widgets
-    latitude = "45.43350"
-    longitude = "10.99311"
-    zoom = "18"
-    # If you want to use google maps you'll need an API Key from Google https://developers.google.com/maps/documentation/embed/get-api-key
-    #service = "google"
-    #api_key = "XXXXXXXX"
-    #language = "fr" #Optional
-    #region = "FR" #Optional
-
+   
+   
   [params.contact]
     #Use this section to automate contact form.
     #Set service to either "netlify", "formspree" or "php"

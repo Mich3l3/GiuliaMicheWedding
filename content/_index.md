@@ -1,20 +1,10 @@
 +++
-# [banner]
-  # [[banner.button]]
-      # url = "/contact"
-      # text = "Get in touch"
-      # type = "primary"
-
-  # [[banner.button]]
-      # url = "#feature-icons"
-      # text = "Find out more"
 
 #Details for the box below the banner
 [services]
-  title = "Cerimonia"
-  text = "Santa Messa alle ore 11:00 a [Via Santissima Trinità, 4, 37122 Verona VR, Italia](https://goo.gl/maps/z1Td4UgPtAPqbq4v9) ."
-  map_location = "Chiesa della Santissima Trinità in Monte Oliveto"
-
+  title = "26 Dicembre 2020"
+  text = "Matrimonio di Giulia e Michele"
+    
 [feature_icons]
   #These feature icons look best if there's an even number of them.
   enable = true
@@ -29,44 +19,33 @@
 	url = "/church"
 
 [[feature_icons.tile]]
-    icon = "fa-hands-helping"
+    #icon = "fa-cheese"
+	icon = "fa-cookie-bite"
     icon_pack = "fas"
-    accent = "1"
+    accent = "3"
     title = "Ricevimento"
     text = "Come arrivare, menu"
     url = "/reception"
-
-  # [[feature_icons.tile]]
-    # icon = "fa-comments"
-    # icon_pack = "fas"
-    # accent = "5"
-    # title = "Speak"
-    # text = "Speaking encouragement to one-another."
-
-  # [[feature_icons.tile]]
-    # icon = "fa-heartbeat"
-    # icon_pack = "fas"
-    # accent = "3"
-    # title = "Loved"
-    # text = "Knowing Love. Being Loved."
 
 [feature_images]
 #These feature images look best if there's an even number of them.
   enable = true
 
   [[feature_images.tile]]
-    image = "img/freely-10057.jpg"
-    title = "Childrens' Ministry"
-    text = "A church for the family."
-    url = "/kids"
-    button_text = "Learn more"
+    image = "img/planning.jpg"
+    title = "Agenda"
+    text = "Scopri i dettagli della giornata: "
+    url = "/planning"
+    button_text = "Più informazioni"
 
   [[feature_images.tile]]
-    image = "img/freely-26905.jpg"
-    title = "Midweek Ministries"
-    text = "Want more during the week?"
-    url = "#"
-    button_text="Join a group today!"
+    title = "Lista nozze"
+	image = "img/travel.jpg"
+    text = "Scopri come partecipare alla lista nozze: "
+    url = "/listanozze"
+    button_text="Partecipa!"
+	
+
 
 [CTA]
   heading = "Scrivici!"
