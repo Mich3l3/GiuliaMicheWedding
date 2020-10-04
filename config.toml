@@ -22,7 +22,33 @@ unsafe = true
   preacher = "preachers"
   series = "series"
 
+#This theme can generate a multi-level menu.
+#Use weight= to specify the order of menu items, and parent= to create a submenu item.
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
 
+  [[menu.main]]
+    name = "News"
+    url = "/news"
+    weight = 2
+	
+  [[menu.main]]
+    name = "Cerimonia"
+    url = "/church"
+    weight = 3
+
+  [[menu.main]]
+    name = "Ricevimento"
+    url = "/reception"
+    weight = 4
+
+  [[menu.main]]
+    name = "Lista Nozze"
+    url = "/wedding_list"
+    weight = 5
 
 # Paramaters for the whole site
 [params]
@@ -59,7 +85,7 @@ unsafe = true
 
     [params.footer]
       copyright = [
-                   "by [Michele Ciocchetta]"
+                   "by Michele Ciocchetta"
                   ]
 
     

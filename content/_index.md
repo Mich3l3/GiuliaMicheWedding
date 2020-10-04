@@ -4,7 +4,8 @@
 [services]
   title = "26 Dicembre 2020"
   text = "Matrimonio di Giulia e Michele"
-    
+  
+   
 [feature_icons]
   #These feature icons look best if there's an even number of them.
   enable = true
@@ -18,7 +19,7 @@
     text = "Come arrivare e planning"
 	url = "/church"
 
-[[feature_icons.tile]]
+  [[feature_icons.tile]]
     #icon = "fa-cheese"
 	icon = "fa-cookie-bite"
     icon_pack = "fas"
@@ -42,7 +43,7 @@
     title = "Lista nozze"
 	image = "img/travel.jpg"
     text = "Scopri come partecipare alla lista nozze: "
-    url = "/listanozze"
+    url = "/wedding_list"
     button_text="Partecipa!"
 	
 
