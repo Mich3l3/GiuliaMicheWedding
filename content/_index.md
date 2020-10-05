@@ -4,7 +4,8 @@
 [services]
   title = "26 Dicembre 2020"
   text = "Matrimonio di Giulia e Michele"
-  
+  button_text="Ultime news"
+  url = "/news"
    
 [feature_icons]
   #These feature icons look best if there's an even number of them.
@@ -20,7 +21,6 @@
 	url = "/church"
 
   [[feature_icons.tile]]
-    #icon = "fa-cheese"
 	icon = "fa-cookie-bite"
     icon_pack = "fas"
     accent = "3"

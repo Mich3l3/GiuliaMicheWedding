@@ -15,9 +15,13 @@
 					<section class="box special">
 						<header class="major">
 							<h2>{{ .Params.Services.title }}</h2><a name="services"></a>
-							<p>{{ .Params.Services.text | markdownify }}</p>
+							<h3>{{ .Params.Services.text | markdownify }}</h3>
+							{{ if .Params.Services.button_text }}
+							<ul class="actions special">
+								<li><a href="{{ .Params.Services.url | absURL }}" class="button alt">{{ .Params.Services.button_text }}</a></li>
+							</ul>
+							{{ end }}
 						</header>
-						{{ partial "map" . }}
 					</section>
 					{{ end }}
 

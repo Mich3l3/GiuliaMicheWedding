@@ -1,7 +1,7 @@
 ---
 title: "Celebrazione"
 subtitle: "Santissima Trinità in Monte Uliveto, Verona"
-images: ["img/church.jpg"]
+images: ["img/planning.jpg"]
 draft: false
 ---
 

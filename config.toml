@@ -60,7 +60,7 @@ unsafe = true
   #customCSS = ["/css/my.css"]
 
   [params.banner]
-    image = "img/planning.jpg"
+    image = "img/banner.jpg"
 
 #  [params.style]
 #    googleFonts = ["Cardo", "Crimson+Text", "Merriweather", "Playfair+Display:400,700", "Roboto+Slab"]
