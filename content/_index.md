@@ -35,9 +35,9 @@
   [[feature_images.tile]]
     image = "img/planning.jpg"
     title = "Agenda"
-    text = "Scopri i dettagli della giornata: "
-    url = "/planning"
-    button_text = "Più informazioni"
+    #text = "Scopri i dettagli della giornata: "
+    #url = "/planning"
+    #button_text = "Più informazioni"
 
   [[feature_images.tile]]
     title = "Lista nozze"
