@@ -85,7 +85,8 @@ unsafe = true
 
     [params.footer]
       copyright = [
-                   "by Michele Ciocchetta"
+                   "by Michele Ciocchetta",
+				   "Artwork by [Erica Bonvicini](http://linkedin.com/in/bonvicinierica)"
                   ]
 
     
