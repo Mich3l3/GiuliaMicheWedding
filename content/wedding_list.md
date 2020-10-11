@@ -1,7 +1,6 @@
 ---
 title: "Lista Nozze"
 subtitle: "Viaggio di nozze in Giappone"
-images: ["img/japan.jpg"]
 draft: false
 ---
 
@@ -24,4 +23,4 @@ draft: false
   * * *
   
   > Per partecipare al nostro viaggio:  
-  __IBAN__
+  __IBAN: IT39V0347501605000327091187__

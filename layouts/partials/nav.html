@@ -7,10 +7,10 @@
       <nav id="nav">
         <ul>
           {{ $currentPage := . }}
-          {{ range .Site.Menus.main }}
+          {{ range .Site.Menus.main }}			
             {{ if .HasChildren }}
                 <li>
-                    <a href="{{ .URL | relURL }}"><i class="fas fa-angle-down"></i>
+                    <a href="{{ .URL | relURL }}"><img src="img/fr.jpg" style="width:15px;height:10px;">
                         {{ .Name }}
                     </a>
                     <ul>
