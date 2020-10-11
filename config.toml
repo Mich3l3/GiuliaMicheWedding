@@ -50,15 +50,14 @@ unsafe = true
     url = "/wedding_list"
     weight = 5
 	
-  [[menu.main]]
-    name = "French"
-    url = "/fr"
-    weight = 6
+  #[[menu.main]]
+   # name = "French"
+    #url = "/fr"
+    #weight = 6
 	
-  [[menu.main]]
-    name = "Lista Nozze"
-	parent = "French"
-    weight = 6
+#  [[menu.main]]
+#	parent = "French"
+ #   weight = 6
 
 # Paramaters for the whole site
 [params]
