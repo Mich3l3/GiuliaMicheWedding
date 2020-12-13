@@ -26,4 +26,4 @@ draft: false
   
   > Per partecipare al nostro viaggio:  
   __NOME: Michele Ciocchetta__  
-  __IBAN: 
+  __IBAN: IT24T0347501605CC0011308733__  
