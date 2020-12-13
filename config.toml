@@ -41,14 +41,9 @@ unsafe = true
     weight = 3
 
   [[menu.main]]
-    name = "Ricevimento"
-    url = "/reception"
-    weight = 4
-
-  [[menu.main]]
     name = "Lista Nozze"
     url = "/wedding_list"
-    weight = 5
+    weight = 4
 	
   #[[menu.main]]
    # name = "French"
@@ -69,7 +64,7 @@ unsafe = true
   #customCSS = ["/css/my.css"]
 
   [params.banner]
-    image = "img/banner.jpg"
+    image = "img/banner_original.jpg"
 
 #  [params.style]
 #    googleFonts = ["Cardo", "Crimson+Text", "Merriweather", "Playfair+Display:400,700", "Roboto+Slab"]
