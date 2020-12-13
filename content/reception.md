@@ -1,10 +1,10 @@
 ---
 title: "Ricevimento"
 subtitle: "Corte Poli, Zevio"
-images: ["img/reception.jpg"]
 draft: false
 ---
 
+<img style="width:100%;" id="image" src="../img/reception.jpg">
 
 Ricevimento [Via Mambrotta, 17B, 37036 San Martino Buon Albergo VR, Italia](https://goo.gl/maps/LAgUCarQrVUDcMJ28)
 

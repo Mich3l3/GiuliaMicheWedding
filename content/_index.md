@@ -2,7 +2,7 @@
 
 #Details for the box below the banner
 [services]
-  title = "26 Dicembre 2020"
+  title = "27 Dicembre 2020"
   text = "Matrimonio di Giulia e Michele"
   button_text="Ultime news"
   url = "/news"
@@ -21,16 +21,16 @@
 	url = "/church"
 
   [[feature_icons.tile]]
-	icon = "fa-cookie-bite"
+	icon = "fa-globe-asia"
     icon_pack = "fas"
     accent = "3"
-    title = "Ricevimento"
-    text = "Come arrivare, menu"
-    url = "/reception"
+    title = "Lista Nozze"
+    text = "Partecipa alla lista nozze"
+    url = "/wedding_list"
 
 [feature_images]
 #These feature images look best if there's an even number of them.
-  enable = true
+  enable = false
 
   [[feature_images.tile]]
     image = "img/planning.jpg"
