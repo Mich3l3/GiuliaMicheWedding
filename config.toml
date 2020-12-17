@@ -1,8 +1,8 @@
-baseURL = "giuliamichewedding.info"
+baseURL = ""
 languageCode = "en-us"
-defaultContentLanguage = "it"
 title = "Giulia & Michele"
 theme = "alpha-church"
+
 
 rssLimit = 5
 paginate = 4
@@ -22,72 +22,46 @@ unsafe = true
   preacher = "preachers"
   series = "series"
 
-  
-[languages]
-  [languages.it]
-    weight = 1	
-	[languages.it.menu]
-	  [[languages.it.menu.main]]
-		name = "Home"
-		url = "/"
-		weight = 1
-	  [[languages.it.menu.main]]
-		name = "Notizie"
-		url = "/news"
-		weight = 2		
-	  [[languages.it.menu.main]]
-		name = "Cerimonia"
-		url = "/church"
-		weight = 3
-	  [[languages.it.menu.main]]
-		name = "Lista Nozze"
-		url = "/weddinglist"
-		weight = 4	
-	  [[languages.it.menu.main]]
-		name = "Français"
-		url = "/fr"
-		weight = 5	
-	[languages.it.params.contact]
-		service = "netlify"
-		confirm_page = "/contact_thanks"
-  [languages.fr]
-    weight = 2	
-    [languages.fr.menu]
-	  [[languages.fr.menu.main]]
-		name = "Home"
-		url = "/fr"
-		weight = 1
-	  [[languages.fr.menu.main]]
-		name = "Nouvelles"
-		url = "/fr/news"
-		weight = 2		
-	  [[languages.fr.menu.main]]
-		name = "Célebration"
-		url = "/fr/church"
-		weight = 3
-	  [[languages.fr.menu.main]]
-		name = "Liste de mariage"
-		url = "/fr/weddinglist"
-		weight = 4
-	  [[languages.fr.menu.main]]
-		name = "Italiano"
-		url = "/"
-		weight = 5	
-	[languages.fr.params.contact]
-		service = "netlify"
-		confirm_page = "/fr/contact_thanks"
-		
 #This theme can generate a multi-level menu.
 #Use weight= to specify the order of menu items, and parent= to create a submenu item.
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
 
+  [[menu.main]]
+    name = "News"
+    url = "/news"
+    weight = 2
+	
+  [[menu.main]]
+    name = "Cerimonia"
+    url = "/church"
+    weight = 3
+
+  [[menu.main]]
+    name = "Lista Nozze"
+    url = "/wedding_list"
+    weight = 4
+	
+  #[[menu.main]]
+   # name = "French"
+    #url = "/fr"
+    #weight = 6
+	
+#  [[menu.main]]
+#	parent = "French"
+ #   weight = 6
 
 # Paramaters for the whole site
 [params]
   author = "Michele Ciocchetta"
+  languageCode = "en" # For accessibility this needs to be set. You can find all language codes at https://www.w3schools.com/tags/ref_language_codes.asp
 
   instant_page = true
 
-  customCSS = ["/css/my.css"]
+  #customCSS = ["/css/my.css"]
 
   [params.banner]
     image = "img/banner_original.jpg"
@@ -108,8 +82,8 @@ unsafe = true
     #
     #If you use php, you need to host this site on a Server capable of running php. 
     # Please edit the /static/contact_mail.php file from the exampleSite.
-    #service = "netlify"
-    # confirm_page = "/contact_thanks"
+    service = "netlify"
+    confirm_page = "/contact_thanks"
     # formspree_email=""
 	
 
