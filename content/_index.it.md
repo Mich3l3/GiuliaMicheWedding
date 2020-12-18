@@ -1,5 +1,7 @@
 +++
 
+
+
 #Details for the box below the banner
 [services]
   title = "27 Dicembre 2020"
@@ -26,7 +28,7 @@
     accent = "3"
     title = "Lista Nozze"
     text = "Partecipa alla lista nozze"
-    url = "/wedding_list"
+    url = "/weddinglist"
 
 [feature_images]
 #These feature images look best if there's an even number of them.
@@ -40,11 +42,11 @@
     title = "Lista nozze"
 	image = "img/travel.jpg"
     text = "Scopri come partecipare alla lista nozze: "
-    url = "/wedding_list"
+    url = "/weddinglist"
     button_text="Partecipa!"
 	
 
 
 [CTA]
-  heading = "Facci sapere se pensi di venire!"
+  heading = "Lasciateci un messaggio!"
 +++
