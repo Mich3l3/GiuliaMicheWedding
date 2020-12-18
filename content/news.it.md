@@ -4,10 +4,18 @@ subtitle: "Metteremo qui le news rilevanti"
 draft: false
 ---
 
-<img style="width:100%;" id="image" src="../img/news.jpg">
+<img style="width:100%;" id="image" src="../../img/news.jpg">
 
 <div class="box">
     <a href="">LATEST NEWS</a>
+	<time class="date-meta">17/12/2020</time>
+
+
+In seguito agli annunci del governo e della regione Veneto, un nuovo lockdown è previsto fino a gennaio.  
+il matrimonio è dunque rinviato a data da destinarsi.
+</div>
+
+<div class="box">
 	<time class="date-meta">13/12/2020</time>
 
 

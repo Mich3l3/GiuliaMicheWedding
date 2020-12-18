@@ -4,7 +4,7 @@ subtitle: "Viaggio di nozze in Giappone"
 draft: false
 ---
 
-<img style="width:100%;" id="image" src="../img/travel.jpg">
+<img style="width:100%;" id="image" src="../../img/travel.jpg">
 
 <iframe src="https://www.google.com/maps/d/embed?mid=17EP1d0c7oQo9mu8DsSqSuujYBstJ5eGI" width="100%" height="480"></iframe>
 

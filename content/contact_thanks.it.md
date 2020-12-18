@@ -1,7 +1,7 @@
 ---
 title: "Grazie per averci scritto"
 subtitle: ""
-images: ["img/contact_thanks_banner.jpg"]
+images: ["../img/contact_thanks_banner.jpg"]
 tags: ""
 draft: false
 ---
