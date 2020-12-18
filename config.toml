@@ -29,7 +29,7 @@ unsafe = true
 	[languages.it.menu]
 	  [[languages.it.menu.main]]
 		name = "Home"
-		url = "/it"
+		url = "/"
 		weight = 1
 	  [[languages.it.menu.main]]
 		name = "Notizie"
