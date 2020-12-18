@@ -29,19 +29,19 @@ unsafe = true
 	[languages.it.menu]
 	  [[languages.it.menu.main]]
 		name = "Home"
-		url = "/"
+		url = "/it"
 		weight = 1
 	  [[languages.it.menu.main]]
 		name = "Notizie"
-		url = "/it/news"
+		url = "/news"
 		weight = 2		
 	  [[languages.it.menu.main]]
 		name = "Cerimonia"
-		url = "/it/church"
+		url = "/church"
 		weight = 3
 	  [[languages.it.menu.main]]
 		name = "Lista Nozze"
-		url = "/it/weddinglist"
+		url = "/weddinglist"
 		weight = 4	
 	  [[languages.it.menu.main]]
 		name = "Français"
@@ -49,7 +49,7 @@ unsafe = true
 		weight = 5	
 	[languages.it.params.contact]
 		service = "netlify"
-		confirm_page = "/it/contact_thanks"
+		confirm_page = "/contact_thanks"
   [languages.fr]
     weight = 2	
     [languages.fr.menu]

@@ -5,7 +5,7 @@
   title = "Matrimonio di Giulia e Michele"
   text = ""
   button_text="Ultime news"
-  url = "/it/news"
+  url = "/news"
    
 [feature_icons]
   #These feature icons look best if there's an even number of them.
@@ -18,7 +18,7 @@
     accent = "2"
     title = "Celebrazione"
     text = "Come arrivare e planning"
-	url = "/it/church"
+	url = "/church"
 
   [[feature_icons.tile]]
 	icon = "fa-globe-asia"
@@ -26,7 +26,7 @@
     accent = "3"
     title = "Lista Nozze"
     text = "Partecipa alla lista nozze"
-    url = "/it/weddinglist"
+    url = "/weddinglist"
 
 
 [CTA]
