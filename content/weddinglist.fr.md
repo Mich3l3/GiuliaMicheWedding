@@ -9,19 +9,19 @@ draft: false
 
 <iframe src="https://www.google.com/maps/d/embed?mid=17EP1d0c7oQo9mu8DsSqSuujYBstJ5eGI" width="100%" height="480"></iframe>
 
-  Giorno 1 : Arrivée à l'aéroport de Tokyo
-  Giorno 2 : Tokyo  
-  Giorno 3 : Tokyo  
-  Giorno 4 : Kanazawa  
-  Giorno 5 : Shirakawa-go après Takayama, nuit en ryokan  
-  Giorno 6 : Takayama, nuit en ryokan  
-  Giorno 7 : Kyoto  
-  Giorno 8 : Kyoto  
-  Giorno 9 : Kyoto - Nara  
-  Giorno 10 : Himeji et Miyajima, nuit en ryokan  
-  Giorno 11 : Osaka  
-  Giorno 12 : Osaka  
-  Giorno 13 : Départ depuis l'aéroport d' Osaka
+  Jour 1 : Arrivée à l'aéroport de Tokyo
+  Jour 2 : Tokyo  
+  Jour 3 : Tokyo  
+  Jour 4 : Kanazawa  
+  Jour 5 : Shirakawa-go après Takayama, nuit en ryokan  
+  Jour 6 : Takayama, nuit en ryokan  
+  Jour 7 : Kyoto  
+  Jour 8 : Kyoto  
+  Jour 9 : Kyoto - Nara  
+  Jour 10 : Himeji et Miyajima, nuit en ryokan  
+  Jour 11 : Osaka  
+  Jour 12 : Osaka  
+  Jour 13 : Départ depuis l'aéroport d' Osaka
   
   * * *
   
