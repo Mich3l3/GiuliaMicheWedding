@@ -1,13 +1,11 @@
 +++
 
-
-
 #Details for the box below the banner
 [services]
-  title = "27 Dicembre 2020"
-  text = "Matrimonio di Giulia e Michele"
+  title = "Matrimonio di Giulia e Michele"
+  text = ""
   button_text="Ultime news"
-  url = "/news"
+  url = "/it/news"
    
 [feature_icons]
   #These feature icons look best if there's an even number of them.
@@ -20,7 +18,7 @@
     accent = "2"
     title = "Celebrazione"
     text = "Come arrivare e planning"
-	url = "/church"
+	url = "/it/church"
 
   [[feature_icons.tile]]
 	icon = "fa-globe-asia"
@@ -28,23 +26,7 @@
     accent = "3"
     title = "Lista Nozze"
     text = "Partecipa alla lista nozze"
-    url = "/weddinglist"
-
-[feature_images]
-#These feature images look best if there's an even number of them.
-  enable = false
-
-  [[feature_images.tile]]
-    image = "img/planning.jpg"
-    title = "Agenda"
-
-  [[feature_images.tile]]
-    title = "Lista nozze"
-	image = "img/travel.jpg"
-    text = "Scopri come partecipare alla lista nozze: "
-    url = "/weddinglist"
-    button_text="Partecipa!"
-	
+    url = "/it/weddinglist"
 
 
 [CTA]

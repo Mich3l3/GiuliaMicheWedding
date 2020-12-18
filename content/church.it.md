@@ -4,7 +4,7 @@ subtitle: "Santissima Trinità in Monte Uliveto, Verona"
 draft: false
 ---
 
-<img style="width:100%;" id="image" src="../img/church.jpg">
+<img style="width:100%;" id="image" src="../../img/church.jpg">
 
 <div class="box">
     <a href="">Tornate più tardi per trovare qui le informazioni sulla celebrazione</a>

@@ -4,7 +4,7 @@ subtitle: "Metteremo qui le news rilevanti"
 draft: false
 ---
 
-<img style="width:100%;" id="image" src="../img/news.jpg">
+<img style="width:100%;" id="image" src="../../img/news.jpg">
 
 <div class="box">
     <a href="">LATEST NEWS</a>

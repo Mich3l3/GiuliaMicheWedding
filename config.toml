@@ -1,4 +1,4 @@
-baseURL = "giuliamichewedding.info"
+baseURL = ""
 languageCode = "en-us"
 defaultContentLanguage = "it"
 title = "Giulia & Michele"
@@ -33,15 +33,15 @@ unsafe = true
 		weight = 1
 	  [[languages.it.menu.main]]
 		name = "Notizie"
-		url = "/news"
+		url = "/it/news"
 		weight = 2		
 	  [[languages.it.menu.main]]
 		name = "Cerimonia"
-		url = "/church"
+		url = "/it/church"
 		weight = 3
 	  [[languages.it.menu.main]]
 		name = "Lista Nozze"
-		url = "/weddinglist"
+		url = "/it/weddinglist"
 		weight = 4	
 	  [[languages.it.menu.main]]
 		name = "Français"
@@ -49,13 +49,13 @@ unsafe = true
 		weight = 5	
 	[languages.it.params.contact]
 		service = "netlify"
-		confirm_page = "/contact_thanks"
+		confirm_page = "/it/contact_thanks"
   [languages.fr]
     weight = 2	
     [languages.fr.menu]
 	  [[languages.fr.menu.main]]
 		name = "Home"
-		url = "/fr"
+		url = "/fr/"
 		weight = 1
 	  [[languages.fr.menu.main]]
 		name = "Nouvelles"
@@ -108,7 +108,7 @@ unsafe = true
     #
     #If you use php, you need to host this site on a Server capable of running php. 
     # Please edit the /static/contact_mail.php file from the exampleSite.
-    #service = "netlify"
+    # service = "netlify"
     # confirm_page = "/contact_thanks"
     # formspree_email=""
 	

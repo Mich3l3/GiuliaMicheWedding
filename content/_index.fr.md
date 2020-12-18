@@ -2,8 +2,8 @@
 
 #Details for the box below the banner
 [services]
-  title = "27 Dicembre 2020"
-  text = "Mariage de Giulia et Michele"
+  title = "Mariage de Giulia et Michele"
+  text = ""
   button_text="Dernières nouvelles"
   url = "/fr/news"
    
@@ -27,22 +27,6 @@
     title = "Liste de mariage"
     text = "Découvrez comment participer"
     url = "/fr/weddinglist"
-
-[feature_images]
-#These feature images look best if there's an even number of them.
-  enable = false
-
-  [[feature_images.tile]]
-    image = "img/planning.jpg"
-    title = "Agenda"
-
-  [[feature_images.tile]]
-    title = "Lista nozze"
-	image = "img/travel.jpg"
-    text = "Scopri come partecipare alla lista nozze: "
-    url = "/weddinglist/fr"
-    button_text="Partecipa!"
-	
 
 
 [CTA]
