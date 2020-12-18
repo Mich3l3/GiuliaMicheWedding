@@ -2,10 +2,10 @@
 
 #Details for the box below the banner
 [services]
-  title = "26 Dicembre 2020"
-  text = "Matrimonio di Giulia e Michele"
-  button_text="Ultime news"
-  url = "/news"
+  title = "27 Dicembre 2020"
+  text = "Mariage de Giulia et Michele"
+  button_text="Dernières nouvelles"
+  url = "/fr/news"
    
 [feature_icons]
   #These feature icons look best if there's an even number of them.
@@ -16,21 +16,21 @@
     icon = "fa-church"
     icon_pack = "fas"
     accent = "2"
-    title = "Celebrazione"
-    text = "Come arrivare e planning"
-	url = "/church"
+    title = "Céremonie"
+    text = "Lieux et déroulement"
+	url = "/fr/church"
 
   [[feature_icons.tile]]
-	icon = "fa-cookie-bite"
+	icon = "fa-globe-asia"
     icon_pack = "fas"
     accent = "3"
-    title = "Ricevimento"
-    text = "Come arrivare, menu"
-    url = "/reception"
+    title = "Liste de mariage"
+    text = "Découvrez comment participer"
+    url = "/fr/weddinglist"
 
 [feature_images]
 #These feature images look best if there's an even number of them.
-  enable = true
+  enable = false
 
   [[feature_images.tile]]
     image = "img/planning.jpg"
@@ -40,11 +40,11 @@
     title = "Lista nozze"
 	image = "img/travel.jpg"
     text = "Scopri come partecipare alla lista nozze: "
-    url = "/wedding_list"
+    url = "/weddinglist/fr"
     button_text="Partecipa!"
 	
 
 
 [CTA]
-  heading = "Facci sapere se pensi di venire!"
+  heading = "Laissez-nous un message!"
 +++
