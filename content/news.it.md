@@ -8,8 +8,16 @@ draft: false
 
 <div class="box">
     <a href="">LATEST NEWS</a>
-	<time class="date-meta">17/12/2020</time>
+	<time class="date-meta">04/02/2021</time>
 
+Ci riproviamo!  
+		- La celebrazione si terrà sabato 13 febbraio 2021 alle ore 11:00 nella chiesa di [SS Trinità in monte uliveto](/church)  
+		- La chiesa ha un limite di capienza fissato a 80 persone; vi chiediamo gentilmente una conferma al più presto per facilitare l'organizzazione  
+		- Il ricevimento è rinviato a data da destinarsi
+</div>
+
+<div class="box">
+	<time class="date-meta">17/12/2020</time>
 
 In seguito agli annunci del governo e della regione Veneto, un nuovo lockdown è previsto fino a gennaio.  
 il matrimonio è dunque rinviato a data da destinarsi.

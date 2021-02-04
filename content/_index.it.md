@@ -3,7 +3,7 @@
 #Details for the box below the banner
 [services]
   title = "Matrimonio di Giulia e Michele"
-  text = ""
+  text = "13 Febbraio 2021"
   button_text="Ultime news"
   url = "/news"
    

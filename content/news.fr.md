@@ -9,6 +9,15 @@ draft: false
 
 <div class="box">
     <a href="">LATEST NEWS</a>
+	<time class="date-meta">04/02/2021</time>
+
+On va réessayer!  
+La célebration aura lieu samedi 13 février 2021 à 11h dans l'eglise [SS Trinità in monte uliveto](/fr/church) à Verone.  
+La fête est réporté.
+</div>
+
+<div class="box">
+    <a href="">LATEST NEWS</a>
 	<time class="date-meta">17/12/2020</time>
 
 
